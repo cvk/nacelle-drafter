@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="The original methalox focus typewriter." />
+    <meta name="author" content="Chaz Ricky Freedo B." />
+    <link rel="icon" href="data:image/x-icon;," />
+    <link rel="stylesheet" href="display.css" />
+    <link rel="stylesheet" href="print.css" />
+    <title>Nacelle Drafter</title>
+  </head>
+  <body>
+    <canvas id="starfield"></canvas>
+    <div class="container">
+      <div class="icon-bar">
+        <img src="print.svg" id="printIcon" alt="Print" /><label for="seedInput" class="subtleLabel"
+          >Nacelle Drafter</label
+        >
+      </div>
+      <div id="seedNotice"></div>
+
+      <input type="text" id="seedInput" placeholder="Enter Plasma Key..." autocomplete="off" title="Plasma Key Entry" />
+
+      <textarea id="typewriterInput" placeholder="Type to go faster... 🚀" spellcheck="false" autofocus></textarea>
+      <div style="flex-grow: 0.03"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

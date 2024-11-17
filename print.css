@@ -1,0 +1,15 @@
+@media print {
+  * {
+    display: none !important;
+  }
+
+  body::after {
+    content: "Please use the print icon instead.";
+    display: block;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
