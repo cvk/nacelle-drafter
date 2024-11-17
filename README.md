@@ -3,6 +3,7 @@
 ## What is Nacelle Drafter?
 **Nacelle Drafter** is a focus-writing and novel draft printing tool. **_It's not intended to replace any software in your workflow._**
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://cvk.github.io/nacelle-drafter/)
 ---
 
 ## What is Nacelle Drafter trying to solve?
